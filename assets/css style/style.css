@@ -1,0 +1,84 @@
+.bg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.362), rgba(0, 0, 0, 0.312)), url("../images/pancakes.webp");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 212;
+                
+}
+
+button{
+    margin-top: 20px;
+}
+
+.navbar{
+  z-index: 2;
+}
+
+.section4 .numer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.section3{
+   padding-bottom: 30px;
+}
+
+.icon-box .card{
+    padding: 20px;
+    text-align:center ;
+}
+.icon-box i{
+    font-size: 24px;
+    
+}
+
+.content li{
+    list-style: none;
+}
+.image2{
+    top: 75%;
+    right: 10%;
+    text-align: center;
+    width: 80%;
+    padding: 20px;
+}
+
+
+.section9 input{
+    margin-top: 10px;
+    height: 50px;
+    outline: none;
+}
+
+.section9 textarea{
+    margin-top: 10px;
+}
+
+.section9 input::placeholder{
+    padding: 10px;
+}
+.section3 .card{
+
+    transition: all 1s;
+}
+
+.section3 .card:hover{
+    transform: scale(1.1);
+    z-index: 1;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
+.nav-item{
+    border-bottom: 3px solid rgba(255, 0, 0, 0);
+}
+.nav-item:hover{
+    border-bottom: 3px solid red;
+} 
+
+@media  screen and (max-width:768px) {
+    .image2{
+        padding: 0px;
+    }
+}
